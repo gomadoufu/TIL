@@ -1,7 +1,6 @@
 Haskell 環境構築
 
 
-
 1. https://www.haskell.org/ghcup/ にアクセスして、ghcupをインストール。
    全てY or P
 2. exec  $SHELL -l
@@ -18,8 +17,15 @@ Tips
 
 もし、stack buildした時の実行ファイルの名前を変えたい時は、package.yamlの executables: 下 myproj-exe を、何かかっこいい名前に変えると変わる
 
+ちょっとhlintやormoluを使いたいが、stack newは大仰すぎる、という時
+シンプルに作る
+1. mkdir simple
+2. cd simple
+3. stack init
+4. touch hie.yaml
+    cradle:
+      stack:
 
 
-ちょっと試すだけなら、stackを使わなければ良い
 
  
