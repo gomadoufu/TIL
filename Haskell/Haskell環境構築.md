@@ -3,7 +3,7 @@ Haskell 環境構築
 
 
 1. https://www.haskell.org/ghcup/ にアクセスして、ghcupをインストール。
-   全てYor P
+   全てY or P
 2. exec  $SHELL -l
 3. ghcup tui で確認
 4. which stack , which ghc でパスを確認
@@ -23,4 +23,3 @@ Tips
 ちょっと試すだけなら、stackを使わなければ良い
 
  
-
