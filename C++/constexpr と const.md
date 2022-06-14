@@ -27,5 +27,5 @@ constexprがついた式のROM化可能性を示す。
 
 ## 結局どっち
 
-consstexpr優先で使えばいいのでは？
-ダメだったらconstで。
+`constexpr`優先で使えばいいのでは？
+ダメだったら`const`で。
