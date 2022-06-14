@@ -4,8 +4,6 @@
 
  ## constexpr 型指定子
 
-読み: /\'kɒnstəikspə/
-
 型指定子なので、constと異なり型を修飾するものではない。
 constexpr の expr は expression = 式 であり、
 constexprがついた式のROM化可能性を示す。
